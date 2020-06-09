@@ -1,43 +1,40 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "944830df-c9b1-42bc-9d8f-b8f83b0d2f21": {
-        "id": "944830df-c9b1-42bc-9d8f-b8f83b0d2f21",
+      "37da8560-bdd1-4cf2-b434-c80a531f40ec": {
+        "id": "37da8560-bdd1-4cf2-b434-c80a531f40ec",
         "parent": null,
-        "name": "j",
-        "type": "DIRECTORY",
-        "isDirectory": true,
-        "children": [
-          "8b36216f-f983-4b6a-8415-312d43fa7316"
-        ],
-        "isRemovable": false,
-        "filePath": "j"
-      },
-      "8b36216f-f983-4b6a-8415-312d43fa7316": {
-        "id": "8b36216f-f983-4b6a-8415-312d43fa7316",
-        "parent": "944830df-c9b1-42bc-9d8f-b8f83b0d2f21",
-        "name": "lambda.js",
-        "type": "LAMBDA_FILE",
+        "name": "j.js",
+        "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "j/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "triggers": [],
+        "filePath": "j.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 11
+        },
         "config": {
-          "runtime": "nodejs8.10",
+          "runtime": "nodejs10.x",
+          "handler": "handler",
           "timeout": 60,
-          "memory": 128
-        }
+          "memory": 128,
+          "layers": [],
+          "name": "j"
+        },
+        "triggers": []
       }
     },
-    "deletedFiles": [],
-    "rootNode": "944830df-c9b1-42bc-9d8f-b8f83b0d2f21",
     "openFiles": [
-      "8b36216f-f983-4b6a-8415-312d43fa7316"
+      "37da8560-bdd1-4cf2-b434-c80a531f40ec"
     ],
-    "currentFileId": "8b36216f-f983-4b6a-8415-312d43fa7316",
+    "currentFileId": "37da8560-bdd1-4cf2-b434-c80a531f40ec",
     "resources": {},
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
     "envVariables": [
       {
         "lambdaId": "all",
@@ -50,17 +47,17 @@
     ],
     "packageJSON": {
       "dependencies": {}
-    },
-    "lambdaId": "8b36216f-f983-4b6a-8415-312d43fa7316"
+    }
   },
   "PROJECT_META": {
     "projectName": "j",
     "projectDescription": "",
     "projectVersion": "1.0.0",
-    "projectRegion": "us-east-1",
+    "projectRegion": "us-east-2",
     "platform": "AWS",
+    "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1548746181085
+    "lastSave": 1591695106029
   },
   "VCS_STATE": {
     "provider": "GitHub",
